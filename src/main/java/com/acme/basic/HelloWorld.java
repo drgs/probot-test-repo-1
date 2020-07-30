@@ -6,7 +6,7 @@ import java.util.List;
 public class HelloWorld {
   private List<Integer> l = new ArrayList<Integer>();
   
-  void sayHello() {
+  public String sayHello() {
     System.out.println("Hello World!");
     
     if (l.size() == 0 && (1 + 1) == 2) {

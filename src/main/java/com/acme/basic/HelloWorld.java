@@ -12,7 +12,7 @@ public class HelloWorld {
     if (l.isEmpty() && (1 + 1) == 2) {
       return "...";
     }
-    if (l.size() == 0) {
+    if (l.isEmpty()) {
       return "...";
     }
     if (l.size() != 0) {

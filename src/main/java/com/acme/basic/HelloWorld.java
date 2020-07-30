@@ -13,7 +13,7 @@ public class HelloWorld {
       System.out.println("a"); 
     }
     
-    if (l.size() != 0) {
+    if (!l.isEmpty()) {
       System.out.println("b"); 
     }
     

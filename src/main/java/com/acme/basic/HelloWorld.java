@@ -8,8 +8,21 @@ public class HelloWorld {
   
   void sayHello() {
     System.out.println("Hello World!");
+
     if (l.size() == 0) {
       System.out.println("a"); 
+    }
+    
+    if (l.size() != 0) {
+      System.out.println("b"); 
+    }
+    
+    if (l.size() > 0) {
+      System.out.println("c"); 
+    }
+    
+    if (l.size() < 1) {
+      System.out.println("d"); 
     }
   }
 

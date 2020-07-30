@@ -21,7 +21,7 @@ public class HelloWorld {
       System.out.println("c"); 
     }
     
-    if (l.size() < 1) {
+    if (l.isEmpty()) {
       System.out.println("d"); 
     }
   }

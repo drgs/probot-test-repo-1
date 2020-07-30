@@ -1,9 +1,16 @@
 package com.acme.basic;
 
-public class HelloWorld {
+import java.util.ArrayList;
+import java.util.List;
 
+public class HelloWorld {
+  private static List<Integer> l = new ArrayList<Integer>();
+  
   void sayHello() {
     System.out.println("Hello World!");
+    if (l.size() == 0) {
+      System.out.println("a"); 
+    }
   }
 
   void notCovered() {

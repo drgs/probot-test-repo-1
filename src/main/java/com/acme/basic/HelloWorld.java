@@ -30,6 +30,7 @@ public class HelloWorld {
     if(l.size() > 1) {
       return "..."; 
     }
+    return "a";
   }
 
   void notCovered() {

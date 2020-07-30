@@ -1,7 +1,11 @@
 package com.acme.basic;
 
-public class HelloWorld {
+import java.util.ArrayList;
+import java.util.List;
 
+public class HelloWorld {
+  private List<Integer> l = new ArrayList<Integer>();
+  
   void sayHello() {
     System.out.println("Hello World!");
     

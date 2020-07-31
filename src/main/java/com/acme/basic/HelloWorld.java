@@ -24,7 +24,7 @@ public class HelloWorld {
     if (l.isEmpty()) {
       return "...";
     }
-    if (l.size() >= 1) {
+    if (!l.isEmpty()) {
       return "...";
     }
     if(l.size() > 1) {

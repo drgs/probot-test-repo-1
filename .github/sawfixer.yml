@@ -1,1 +1,5 @@
-sonar_projectKey: drgs_probot-test-repo-1
+sonar:
+  projectKey: drgs_probot-test-repo-1
+  hostname: sonarcloud.io
+  token: ${{ secrets.SONAR_TOKEN }}
+  

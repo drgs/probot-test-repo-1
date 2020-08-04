@@ -1,3 +1,5 @@
+package com.acme.basic;
+
 public class A {
  	public A() {}
 	public void foo() {

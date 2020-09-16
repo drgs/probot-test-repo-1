@@ -13,7 +13,7 @@ public class HelloWorld {
       c = c + 1;
       return "...";
     }
-    if (l.size() == 0) {
+    if (l.isEmpty()) {
       return "...";
     }
     if (l.size() != 0) {

@@ -9,7 +9,7 @@ public class HelloWorld {
   public String sayHello() {
     System.out.println("Hello World!");
     int a = 2, c = 6;
-    if (l.size() == 0 && (1 + 1) == 2) {
+    if (l.isEmpty() && (1 + 1) == 2) {
       c = c + 1;
       return "...";
     }

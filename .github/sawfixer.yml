@@ -4,4 +4,4 @@ sonar:
 fixer:
   hostname: localhost
   port: 8080
-excludedSeverities: [minor]
+excludedSeverities: [major]

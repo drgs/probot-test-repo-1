@@ -4,4 +4,4 @@ sonar:
 fixer:
   hostname: localhost
   port: 8080
-excludedTags: [unused, cwe]
+excludedSeverities: [minor]

@@ -8,7 +8,6 @@ public class HelloWorld {
   
   public String sayHello() {
     System.out.println("Hello World!");
-    int cinci = 5;
     int b = 4, c = 6;
     if (l.size() == 0 && (1 + 1) == 2) {
       c = c + 1;

@@ -4,7 +4,7 @@ public class HelloWorld {
   String testStr = "test";
 
   public boolean foo(String bar) {
-     return bar.equals("foo");
+     return "foo".equals(bar);
   }
  
   void sayHello() {

@@ -10,8 +10,12 @@ public class HelloWorld {
     System.out.println("Hello World!");
     int cinci = 5;
     int a = 2, b = 4, c = 6;
+    String str = "test";
     if (l.size() == 0 && (1 + 1) == 2) {
       c = c + 1;
+      if (str.equals("test")) {
+        c = c + 2;
+      }
       return "...";
     }
     if (l.size() == 0) {

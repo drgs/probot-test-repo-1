@@ -1,7 +1,12 @@
 package com.acme.basic;
 
 public class HelloWorld {
+  String testStr = "test";
 
+  public boolean foo(String bar) {
+     return bar.equals("foo");
+  }
+ 
   void sayHello() {
     System.out.println("Hello World!");
   }

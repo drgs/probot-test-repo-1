@@ -2,6 +2,6 @@ sonar:
   projectKey: drgs_probot-test-repo-1
   hostname: sonarcloud.io  
 fixer:
-  hostname: saw-bot
+  hostname: java-fixer
   port: 8080
 excludedSeverities: [major]
